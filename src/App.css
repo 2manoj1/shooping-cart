@@ -1,0 +1,28 @@
+.App-logo {
+    height: 5vmin;
+}
+
+.App-header {
+    background-color: #61dafb;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: left;
+    font-size: calc(10px + 2vmin);
+}
+
+.App-link {
+    color: #61dafb;
+}
+
+.table-wrapper-scroll-y {
+    display: block;
+    height: 50vmin;
+    overflow-y: auto;
+    -ms-overflow-style: -ms-autohiding-scrollbar;
+}
+
+.table-wrapper-scroll-y th {
+    position: sticky;
+    top: 0;
+}
